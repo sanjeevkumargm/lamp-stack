@@ -47,6 +47,8 @@ MariaDB > FLUSH PRIVILEGES;
 4. Load Product Inventory Information to database
 
 ```
+use ecomdb (change to ecomdb database)
+cat > db-load-script.sql (Copy user inputs from db-load-script.sql script )
 mysql < db-load-script.sql
 ```
 
